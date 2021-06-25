@@ -46,7 +46,6 @@ header {
 }
 /* Top部分 */
 .top-container {
-  background-color: ;
 }
 .top {
   position: absolute;
@@ -58,7 +57,13 @@ header {
 }
 .top h1 {
   font-size: 60px;
+  font-family: 'Nunito';
+  font-weight: normal;
+}
+.top p {
+  font-size: 20px;
   font-family: serif;
+  text-align: center;
 }
 /* About部分 */
 .about-container {
@@ -73,12 +78,13 @@ header {
     text-align: center;
 }
 .about h2 {
-  font-size: 50px;
+  font-size: 55px;
+  font-family: 'Nunito';
+  font-weight: normal;
   margin-bottom: 20px;
 }
 /* Profile部分 */
 .profile-container {
-  background-color: ;
 }
 .profile {
   position: absolute;
@@ -90,15 +96,22 @@ header {
     text-align: center;
 }
 .profile h2 {
-  font-size: 50px;
+  font-size: 55px;
+  font-family: 'Nunito';
+  font-weight: normal;
   margin-bottom: 20px;
 }
 .profile-detail {
   display: flex;
 }
 .profile-detail img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+.profile-detail p {
+  margin: 20px 20px;
+  text-align: left;
 }
 /* Works部分 */
 .works {
@@ -109,20 +122,26 @@ header {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    width: 1000px;
 }
 .works h2 {
-  font-size: 50px;
+  font-size: 55px;
+  font-family: 'Nunito';
+  font-weight: normal;
   margin-bottom: 20px;
+}
+.detail-container {
+  display: flex;
 }
 .works-detail {
   margin: 0px 20px;
 }
 .works-detail img {
-  width: 250px;
-  height: 175px;
+  width: 100%;
+  height: auto;
 }
-.detail-container {
-  display: flex;
+.git-hub p {
+  margin: 20px;
 }
 /* Skills部分 */
 .skills-container {
@@ -138,11 +157,43 @@ header {
     text-align: center;
 }
 .skills h2 {
-  font-size: 50px;
+  font-size: 55px;
+  font-family: 'Nunito';
+  font-weight: normal;
   margin-bottom: 20px;
+}
+.explain {
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.skills-detail {
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  margin: 10px 5px;
+}
+.skills-detail img {
+  height: 100%;
+  width: auto;
+}
+/* Thanks部分 */
+.thanks {
+  margin: 200px 0px;;
+  text-align: center;
+  height: 200px;
+}
+.thanks h2 {
+  font-size: 55px;
+  font-family: 'Nunito';
+  font-weight: normal;
 }
 /* footer部分 */
 footer {
   background-color: #000;
-  height: 75px;
+  height: 70px;
+}
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px 0px;
 }
