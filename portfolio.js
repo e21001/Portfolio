@@ -24,15 +24,14 @@ $(function() {
     }, 1250);
   });
 });
-
 // スクロールボタン部分
 function scroll() {
   $('.nav-btn').animate({
     'width':'50px',
     'height':'50px'
   }, 1000).animate({
-    'width':'60px',
-    'height':'60px'
+    'width':'55px',
+    'height': '55px'
   }, 1000);
   setTimeout('scroll()', 2000);
 }
