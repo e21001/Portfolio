@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <title>Ryuya's Portfolio</title>
     <meta name="description" content="Ryuyaのポートフォリオサイトです。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
-    <link href="portfolio.css" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet">
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   </head>
@@ -29,14 +30,14 @@
       <div class="top">
         <h1>My Portfolio</h1>
         <p>Ryuya Asato</p>
-        <a href="#about"><img class="down nav-btn" src="down.png" alt=""></a>
+        <a href="#about"><img class="down nav-btn" src="img/down.png" alt=""></a>
       </div>
     </div>
     <div id="about" class="about-container container fixed-background">
       <div class="about">
         <h2>About this site</h2>
         <p class="explain">このサイトについて</p>
-        <p>Ryuya(リュウヤ)のポートフォリオサイトです。<br>これまでの制作物と、自分のスキルをまとめています。<br>このサイトで私のことを知ってもらえれば嬉しいです。どうぞご覧ください。</p>
+        <p class="about-p">Ryuya(リュウヤ)のポートフォリオサイトです。<br>これまでの制作物と、自分のスキルをまとめています。<br>このサイトで私のことを知ってもらえれば嬉しいです。どうぞご覧ください。</p>
       </div>
     </div>
     <div id="profile" class="profile-container container">
@@ -44,9 +45,9 @@
         <h2>Profile</h2>
         <p class="explain">プロフィール</p>
         <div class="profile-detail">
-          <img src="profile.jpeg" alt="プロフィール画像">
+          <img src="img/profile.jpeg" alt="プロフィール画像">
           <p>
-            沖縄県出身現在20歳の学生。高校卒業後、カナダのカレッジへ留学、新型ウイルスの影響で本科への進学を断念。帰国後、アイデアを形にする仕事がしたいと思いWebエンジニアになるため県内の専門学校へ進学。現在はPHPとLaravelを学習中。趣味はバスケットボール、スケートボード、たまにバイク。
+            沖縄県出身現在21歳。高校卒業後、カナダのカレッジへ留学、新型ウイルスの影響で本科への進学を断念。帰国後、Webエンジニアになるため県内の専門学校へ進学。現在はLaravelとAWSを学習中。趣味はバスケットボール、スケートボード、バイク。
           </p>
         </div>
       </div>
@@ -57,16 +58,19 @@
         <p class="explain">これまでの制作物です。</p>
         <div class="detail-container">
           <div class="works-detail">
-            <img src="works/img4.jpg" alt="test">
+            <img src="img/works/portfolio.png" alt="test">
             <p>My Portfolio</p>
+            <p>(HTML, CSS, jquery)</p>
           </div>
           <div class="works-detail">
-            <img src="works/img2.jpg" alt="test">
+            <img src="img/works/yushinmi.png" alt="test">
             <p>縁どころ吉嶺(ゆしんみ)HP</p>
+            <p>(HTML, CSS, javascript)</p>
           </div>
           <div class="works-detail">
-            <img src="works/img.jpg" alt="test">
-            <p>CLEAN GUYS (沖縄ビーチクリーン掲示板)</p>
+            <a href="http://aws-ryuya.net/"><img src="img/works/memo.png" alt="test"></a>
+            <a href="http://aws-ryuya.net/"><p>laravelで作った簡単なメモアプリ</p></a>
+            <p>(laravel, MySQL, AWS)</p>
           </div>
         </div>
         <div class="git-hub">
@@ -78,30 +82,30 @@
       <div class="skills">
         <h2>Skills</h2>
         <p class="explain">現時点での自分のスキルです。</p>
-        <div class="detail-container">
+        <div class="detail-container skills-container">
           <div class="skills-detail">
-            <img class="htmlcss" src="skills/htmlcss.png" alt="">
-            <p>簡単なサイトは作れるレベル</p>
+            <img class="htmlcss" src="img/skills/htmlcss.png" alt="">
+            <p>簡単なサイトは作れる。</p>
           </div>
           <div class="skills-detail">
-            <img class="" src="skills/javascript.png" alt="">
-            <p>ここに自分のレベル</p>
+            <img class="" src="img/skills/javascript.png" alt="">
+            <p>関数などを使って簡単な問題を解くことができる。</p>
           </div>
           <div class="skills-detail">
-            <img class="" src="skills/php.svg" alt="">
-            <p>基本的な文法は理解できるが応用レベルではない。現在学習中。</p>
+            <img class="" src="img/skills/php.svg" alt="">
+            <p>基本的な文法は理解できる。</p>
           </div>
           <div class="skills-detail">
-            <img class="" src="skills/laravel.svg" alt="">
-            <p>ここに自分のレベル</p>
+            <img class="" src="img/skills/git.svg" alt="">
+            <p>blanchを分けて作業ができる。</p>
           </div>
           <div class="skills-detail">
-            <img class="" src="skills/git.svg" alt="">
-            <p>ここに自分のレベル</p>
+            <img class="" src="img/skills/aws.png" alt="">
+            <p>AWSの主要サービスやクラウドに関することは理解できる。現在学習中。</p>
           </div>
           <div class="skills-detail">
-            <img class="" src="skills/github.svg" alt="">
-            <p>ここに自分のレベル</p>
+            <img class="" src="img/skills/laravel.svg" alt="">
+            <p>MVCモデルの概要は理解できる。簡単なアプリを作れる。現在学習中。</p>
           </div>
         </div>
       </div>
@@ -110,12 +114,12 @@
       <p>おわり</p>
       <h2>Thank you for watching!</h2>
       <p>最後までご覧いただきありがとうございました。ほんの一部ですが、私のこと少しでも知っていただけなのなら嬉しいです。</p>
-      <a href="#top"><img class="up nav-btn" src="up.png" alt=""></a>
+      <a href="#top"><img class="up nav-btn" src="img/up.png" alt=""></a>
     </div>
     </div>
     <footer>
       <p><small>&copy; 2021 Ryuya'portfolio</small></p>
     </footer>
-    <script src="portfolio.js"></script>
+    <script src="js/portfolio.js"></script>
   </body>
 </html>
